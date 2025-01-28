@@ -1,0 +1,29 @@
+{
+	"name": "@crow-tools/utils",
+	"module": "index.ts",
+	"type": "module",
+	"exports": {
+		".": "./index.ts",
+		"./*": ["./lib/*.ts", "./lib/**/*.ts"]
+	},
+	"devDependencies": {
+		"@types/bn.js": "^5.1.6",
+		"typescript": "5.7.3"
+	},
+	"dependencies": {
+		"@coral-xyz/anchor": "^0.30.1",
+		"@coral-xyz/borsh": "^0.30.1",
+		"@raydium-io/raydium-sdk-v2": "0.1.102-alpha",
+		"@solana/spl-token": "0.4.9",
+		"@solana/web3.js": "1.98.0",
+		"@triton-one/yellowstone-grpc": "1.4.1",
+		"await-to-js": "^3.0.0",
+		"bn.js": "^5.2.1",
+		"bs58": "^6.0.0",
+		"decimal.js": "^10.4.3",
+		"expiry-map": "^2.0.0",
+		"ofetch": "1.4.1",
+		"p-memoize": "^7.1.1",
+		"p-retry": "^6.2.1"
+	}
+}

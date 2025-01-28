@@ -1,0 +1,27 @@
+{
+	"name": "@crow-tools/api",
+	"version": "1.0.0",
+	"scripts": {},
+	"dependencies": {
+		"@crow-tools/utils": "workspace:*",
+		"@keyv/redis": "^4.2.0",
+		"@metaplex-foundation/mpl-token-metadata": "^3.3.0",
+		"@metaplex-foundation/umi": "^1.0.0",
+		"@metaplex-foundation/umi-bundle-defaults": "^1.0.0",
+		"@solana/spl-token": "0.4.9",
+		"@solana/web3.js": "1.98.0",
+		"@triton-one/yellowstone-grpc": "1.4.1",
+		"bs58": "^6.0.0",
+		"bullmq": "^5.35.1",
+		"dotenv": "^16.4.7",
+		"drizzle-kit": "^0.30.2",
+		"drizzle-orm": "^0.38.4",
+		"expiry-map": "^2.0.0",
+		"fastify": "^5.2.1",
+		"keyv": "^5.2.3",
+		"mysql2": "^3.12.0",
+		"ofetch": "1.4.1",
+		"p-memoize": "^7.1.1",
+		"zod": "3.24.1"
+	}
+}
